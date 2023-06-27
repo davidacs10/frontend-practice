@@ -87,6 +87,20 @@ button:active {
   background-color: hsl(212, 21%, 14%);
 }
 
+@media (min-width:480px) {
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+  }
+
+  figure img {
+    background-image: url(/images/image-product-desktop.jpg);
+  }
+
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
